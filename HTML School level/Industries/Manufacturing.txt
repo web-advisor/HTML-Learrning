@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>
+Manufacturing Industries
+</title>
+</head>
+<body alink="black" vlink="black" link="black" bgcolor="khaki" text="dark khaki">
+
+<br>
+<center>
+<font face="algerian" size="10" color="peach">
+MANUFACTURING INDUSTRIES
+</font>
+
+<br>
+<hr size="8" width="40%" color="#0000FF" align="left">
+<hr size="8" width="80%" color="#0000FF" align="right">
+
+<br>
+<font face="arial" size="6">
+<p>
+Manufacturing is an important sector of any economy. The economic Strength of a country is measured by the development of Manufacturing Industries. 
+<b><a name="Manufacturing">Production of goods in large quantities after processing from raw materials to more valuable products is called
+ Manufacturing. </a></b>People employed in the secondary or manufacturing actitvities manufacture the primary materials into finished goods.
+</font>
+</p>
+
+<br>
+<b>
+<font face="cooper black" size="7">
+Manufacturing
+</font>
+
+<br>
+<img src="">
+</center>
+
+<br>
+<hr size="5" color="#0000FF">
+
+<br>
+<font face="calibri" size="5">
+Factors influencing the location of an Industry are:
+<ul type="circle">
+<li>Cost of obtaining raw materials at site
+<li>Cost of Production at site
+<li>Decision to locate Factory at site
+<li>Cost of distribution of Production
+</ul>
+</font>
+
+<br>
+<font face="comic sans" size="6">
+For More Information:
+<ul type="square">
+<li><a href="">Importance Of Manufacturing</a>
+<li><a href="">Classification Of Industries</a>
+<li><a href="">Industrial Pollution And Environmental Degradation</a>
+</ul>
+</font>
+
+<br>
+<hr size="5" color="peach">
+
+<br>
+<p align="right">
+<font face="bradley hand itc" size="5">
+Always Remember <a href="#Manufacturing">What Is Manufacturing?</a>
+</font>
+</p>
+</b>
+
+</body>
+</html>

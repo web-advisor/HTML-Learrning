@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>
+Minor Bodies of the Solar System
+</title>
+</head>
+<body alink="biege" vlink="biege" text="white" link="biege" background="1.2.jpg">
+
+<br>
+<b>
+<center>
+<font size="10" face="algerian">
+<a name="MINOR BODIES OF THE SOLAR SYSTEM">
+MINOR BODIES OF THE SOLAR SYSTEM
+</a>
+</b>
+</font>
+
+<hr size="4" width="80%">
+
+<br>
+<font size="5" face="arial">
+<p>
+Apart from the Sun, the Eight Planets and their Moons ,there are also some minor bodies. These includes the <b><a href="#Asteroids">Asteroids</a>,
+<a href="#Comets">Comets</a>, <a href="#Meteors and Meteorites">Meteors and Meteorites</a> & <a href="#Satellites">Satellites</a>.</b>
+</p>
+</font>
+
+<br>
+<font size="6" face="showcard gothic">
+The Minor Bodies of the Solar System
+</font>
+
+<br>
+<hr size="5" align="center" width="60%">
+
+<br>
+<font face="cooper black" size="7">
+<a name="Asteroids">Asteroids</a>
+</font>
+<font size="5" face="arial">
+<p>
+Asteroids are minor planets, especially those of the inner Solar System. The larger ones have also been called planetoids. These terms have historically
+ been applied to any astronomical object orbiting the Sun that did not show the disc of a planet and was not observed to have the characteristics of an
+ active comet. As minor planets in the outer Solar System were discovered and found to have volatile-based surfaces that resemble those of comets,
+ they were often distinguished from asteroids of the asteroid belt.
+</p>
+<center>
+<img src="7.jpg" height="350" width="450">
+<p align="right">
+<font size="6" face="bradley hand itc">
+<a href="#MINOR BODIES OF THE SOLAR SYSTEM">Back To Top</a>
+</font>
+</p>
+</center>
+</font>
+
+<br>
+<hr size="5" align="center" width="60%">
+
+<br>
+<font face="cooper black" size="7">
+<a name="Comets">Comets</a>
+</font>
+<font size="5" face="arial">
+<p>
+A comet is an icy body that releases gas or dust. They are often compared to dirty snowballs, though recent research has led some scientists to call them
+ snowy dirtballs. Comets contain dust, ice, carbon dioxide, ammonia, methane and more.
+The first photographic discovery of a comet was made by Edward Emerson Barnard. By convention, comets are named after their discoverer or 
+discoverers.
+</p>
+<center>
+<img src="8.png" height="350" width="450">
+<p align="right">
+<font size="6" face="bradley hand itc">
+<a href="#MINOR BODIES OF THE SOLAR SYSTEM">Back To Top</a>
+</font>
+</p>
+</center>
+</font>
+
+<br>
+<hr size="5" align="center" width="60%">
+
+<br>
+<font face="cooper black" size="7">
+<a name="Meteors and Meteorites">Meteors and Meteorites</a>
+</font>
+<font size="5" face="arial">
+<p>
+Shooting stars, or meteors, are bits of interplanetary material falling through Earth's atmosphere and heated to incandescence by friction.
+ These objects are called meteoroids as they are hurtling through space, becoming meteors for the few seconds they streak across the sky and create 
+glowing trails.
+Meteorites may resemble Earth rocks, but they usually have a burned exterior. This fusion crust is formed as the meteorite is melted by friction as it 
+passes through the atmosphere. There are three major types of meteorites: the "irons," the "stones," and the stony-irons. 
+</p>
+<center>
+<img src="6.jpg" height="350" width="450">
+<p align="right">
+<font size="6" face="bradley hand itc">
+<a href="#MINOR BODIES OF THE SOLAR SYSTEM">Back To Top</a>
+</font>
+</p>
+</center>
+</font>
+
+<br>
+<hr size="5" align="center" width="60%">
+
+<br>
+<font face="cooper black" size="7">
+<a name="Satellites">Satellites</a>
+</font>
+<font size="5" face="arial">
+<p>
+Artificial satellites are human-built objects orbiting the Earth and other planets in the Solar System. This is different from the natural satellites, or moons,
+ that orbit planets, dwarf planets and even asteroids. Artificial satellites are used to study the Earth, other planets, to help us communicate, and even to
+ observe the distant Universe. Satellites can even have people in them, like the International Space Station and the Space Shuttle.
+The first artificial satellite was the Soviet Sputnik 1 mission, launched in 1957. 
+</p>
+<center>
+<img src="9.jpg" height="350" width="550">
+<p align="right">
+<font size="6" face="bradley hand itc">
+<a href="#MINOR BODIES OF THE SOLAR SYSTEM">Back To Top</a>
+</font>
+</p>
+</center>
+</font>
+
+<br>
+<hr size="5" color="biege">
+
+<p align="right">
+<font size="6" face="bradley hand itc">
+<a href="Solar System.html">Go Back To Homepage</a>
+</font>
+</p>
+
+</body>
+</html>
+
+
+
+

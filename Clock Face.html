@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Face</title>
+
+</head>
+
+<body>
+    <canvas id="Clock" width="500px" height="500px">
+        Please Upgrade your browser .!
+    </canvas>
+    <script type="text/javascript">
+        function setTime(){     
+            var clock = document.getElementById("Clock");
+            var context = clock.getContext("2d");
+            var circleRadius = clock.width / 2;
+
+            context.beginPath();
+            context.fillStyle="black";  
+            context.arc(circleRadius, circleRadius, circleRadius, 0, 2 * Math.PI);
+            // To fill colors inside the circle 
+            context.fill();
+
+            context.fillStyle = "white";
+            context.beginPath();
+            context.arc(circleRadius, circleRadius, 10, 0, 2 * Math.PI)
+            context.fill();
+
+            // Writing the Nummbers on the Clock Face
+            context.font = circleRadius / 9 + "px arial";
+            context.fillStyle = "white";
+            // Layout Commands ::: 
+            // textAlign="center" :: Will put the text in the center of the horizontal scaling   
+            context.textAlign = "center";
+            // texBaseline="middle" :: Will put the text in the center of the vertical scaling
+            context.textBaseline = "middle";
+            // Now whatever we will write will be at the centre of the Canvas
+
+            for (let i = 1; i < 13; i++) {
+                context.fillText(i, circleRadius + (circleRadius * Math.sin((i * 2 * Math.PI) / 12) * 0.9), circleRadius - (circleRadius * Math.cos(i * 2 * Math.PI / 12) * 0.9));
+            }
+
+            let date = new Date();
+
+            let hours = date.getHours();
+            let minute = date.getMinutes();
+            let seconds = date.getSeconds();
+
+            let minutes = minute + (seconds / 60);
+            let fullHours = hours % 12 + minutes / 60 + seconds / 3600;
+
+            let hourAngle = fullHours * 2 * Math.PI / 12;
+            let minuteAngle = minutes * 2 * Math.PI / 60;
+            let secondAngle = seconds * 2 * Math.PI / 60;
+
+            // Drawing Hour Hand
+            context.strokeStyle = "white";
+            context.moveTo(circleRadius, circleRadius);
+            context.lineTo(circleRadius + (circleRadius * 0.6 * Math.sin(hourAngle)), circleRadius - (circleRadius * 0.6 * Math.cos(hourAngle)));
+            context.lineWidth = 5;
+            context.stroke();
+
+            // Drawing Minute hand
+            context.moveTo(circleRadius, circleRadius);
+            context.lineTo(circleRadius + (circleRadius * 0.8 * Math.sin(minuteAngle)), circleRadius - (circleRadius * 0.8 * Math.cos(minuteAngle)));
+            context.lineWidth = 3;
+            context.stroke();
+
+            // drawing the Seconds Hand 
+            context.moveTo(circleRadius, circleRadius);
+            context.lineTo(circleRadius + (circleRadius * 0.9 * Math.sin(secondAngle)), circleRadius - (circleRadius * 0.9 * Math.cos(secondAngle)));
+            context.lineWidth = 3;
+            context.stroke();
+        }
+        setInterval(setTime,1000);
+    </script>
+
+</body>
+
+</html>

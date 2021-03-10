@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+THE HARRY POTTER SERIES
+</title>
+</head>
+<body alink="magenta" vlink="dark khaki" link="blue" bgcolor="biege">
+
+<center>
+<font size="10" color="maroon" face="algerian">
+HARRY POTTER SERIES
+</font>
+</center>
+
+<br>
+<hr size="4" color="red" width="85%" align="left">
+<hr size="3" color="red" width="45%" align="right">
+<br>
+
+<center>
+<font size="9" face="comic sans">
+Harry Potter Series
+<ol type="1">
+<li>Harry Potter And The Philospher's Stone
+<li>Harry Potter And The Chambers Of Secret
+<li>Harry Potter And The Prisoner Of Azhkaban
+<li>Harry Potter And The Goblet Of Fire 
+<li>Harry Potter And The Order Of The Phoenix
+<li>Harry Potter And The Half Blood Prince
+<li>Harry Potter And The Deathly Hallows
+<ul type="disc">
+<li>Part-1
+<li>Part-2
+</ul>
+</ol>
+</font>
+</center>
+
+<br>
+<hr size="4" color="red" width="85%" align="left">
+<hr size="3" color="red" width="45%" align="right">
+<br>
+
+<marquee>
+<a href="Harry Potter.html">
+GO BACK TO HOMEPAGE
+</a>
+</marquee>
+
+</body>
+</html>

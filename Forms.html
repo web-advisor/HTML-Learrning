@@ -1,0 +1,246 @@
+<html>
+	<head>
+		
+		<meta name="charset" content="UTF-8">
+		<meta name="viewport" content="width=device-width , initial-scale=1.0">
+		<meta name="author" content="Amar Sinha">
+		<meta name="description" content="A webpage trying to contain all about Forms">
+		<meta name="keywords" content="HTML,CSS,Forms">
+		<meta http-equiv="refresh" content="1000">
+		
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Spicy+Rice&display=swap" rel="stylesheet">
+		
+		<style type="text/css">
+		
+		body{
+			background-color:#FEDCBA;
+			}
+		h1{
+			font-weight:bolder;
+			font-size:400%;
+			font-family:'Spicy Rice',cursive;
+			margin:20px;
+			word-spacing:20px;
+			}
+		#Form-Area{
+			background-color:#A97A00;
+			padding:25px;
+			border:10px double black;
+			width:1100px;
+			float:left;
+			}
+		#Personal-info{
+			background-color:#E4E4E4;
+			border:30px solid #A65550;
+			margin:20px;
+			}
+		#Academic-Info{
+			background-color:cyan;
+			border:30px solid #555599;
+			margin:20px;
+			}
+		#Why-Joining{
+			background-color:#43CC33;
+			border:30px solid #439933;
+			margin:20px;
+			}
+		#Delivery-Add{
+			background-color:#E4E4E4;
+			border:30px solid #A9A9A9;
+			margin:20px;
+			}
+		#Submission{
+			background-color:#FF7733;
+			border:30px solid #AA1111;
+			margin:20px;
+			}
+		.legends{
+			font-weight:bolder;
+			font-size:200%;
+			font-family:verdana;
+			padding:20px;
+			text-align:center;
+			}
+		.labels{
+			font-family:'Lobster', cursive;
+			font-size:120%;
+			padding:10px;
+			}
+		.fields{
+			font-family:comic-sans;
+			font-size:120%;
+			padding:2px;
+			text-align:center;
+			}
+		#search-icon{
+			height:27px;
+			width:27px;
+			margin:12px 0 0 0;
+			}
+		
+		
+		</style>
+		
+		<title>Forms </title>
+	</head>
+	
+	
+	
+	<body>
+		
+		
+		<div id="Form-Area">
+			<h1>Registration Form</h1>
+			<form action="Frames.html" target="_blank" method="post" name="Form1" >
+								
+				<fieldset id="Personal-info">
+					<legend class="legends">Personal Information</legend>
+					
+					<label for="Username" class="labels">Username : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="text" name="Username" class="fields" title="Enter your First Name(max 15 characters)" size="15" required autofocus placeholder="Your First Name here">&nbsp;&nbsp;&nbsp;&nbsp; 
+					<input type="text" name="Last-name" class="fields" title="Enter your Last Name(max 15 characters)" size="15" required placeholder="Your Last Name here"><br>
+				
+					<span class="labels">Gender &nbsp;&nbsp;&nbsp;: </span><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="male" class="fields" title="Choose your Gender">
+					<label for="male" class="labels">Male &nbsp;&nbsp;&nbsp;&nbsp;  </label><br>	
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="female" class="fields" title="Choose your Gender">
+					<label for="female" class="labels">Female &nbsp;&nbsp;&nbsp;&nbsp;  </label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="gay" class="fields" title="Choose your Gender">
+					<label for="gay" class="labels">Gay &nbsp;&nbsp;&nbsp;&nbsp;  </label><br>	
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="lesbian" class="fields" title="Choose your Gender">
+					<label for="lesbian" class="labels">Lesbian &nbsp;&nbsp;&nbsp;&nbsp;  </label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="none" class="fields" title="You can Choose not to disclose">
+					<label for="none" class="labels">Prefer Not to Say &nbsp;&nbsp;&nbsp;&nbsp;  </label><br>
+					
+					<label for="DOB" class="labels">Date of Birth :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="date" name="DOB" class="fields" title="Select your Date of Birth from date picker " required><br>
+				
+					<label for="email" class="labels">Email ID : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="email" name="email" class="fields" title="Enter your Email ID" placeholder="name@example.com" required><br>
+				
+					<label for="phone" class="labels">Phone Number : &nbsp;  </label>	
+					<input type="tel" name="phone" class="fields" title="Country Code here" value="+91" pattern="[0-9 +]{3}" size="3" required>
+					<label for="number" class="labels"> - </label>
+					<input type="tel" name="number" class="fields" title="Phone Number here" placeholder="9876543210" pattern="[0-9]{10}" size="10" required><br>
+										
+					<label for="aadhaar" class="labels">Enter AADHAAR CARD number :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="tel" name="aadhaar" class="fields" title="Enter your AADHAAR CARD Number here" placeholder="1234-1234-1234-1234" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+					<label for="file" class="labels"> &nbsp;&nbsp;&nbsp;&nbsp; </label>
+					<input type="file" name="file" class="fields" title="Upload AADHAAR Card File" multiple><br>
+				
+					<label for="password" class="labels">Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="password" name="password" class="fields" title="Use Small and Capital letters , Numbers and Special Cahracters " size="20" placeholder="Your Password here" required><br>
+				
+				</fieldset>
+				
+				<fieldset id="Academic-Info">
+					
+					<legend class="legends">Academic Information</legend>
+				
+					<label for="university" class="labels">University Name :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="text" list="university" name="university" title="Enter your Full Name" placeholder="Your Name here" required><br>
+					<datalist id="university">
+						<option value="DELHI UNIVERSITY" class="fields"><br>
+						<option value="INDRAPRASTHA UNIVERSITY" class="fields"><br>
+						<option value="BIRLA INSTITUTE OF TECHNOLOGY" class="fields"><br>
+						<option value="B.H. UNIVERSITY" class="fields"><br>
+						<option value="CHICAGO UNIVERSITY" class="fields"><br>
+						<option value="DELHI TECHNOLOGICAL UNIVERSITY" class="fields"><br>
+					</datalist>
+				
+					<span class="labels"> Select Stream &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<select>
+						<option class="fields">Arts</option>
+						<option class="fields">Commerce</option>
+						<option class="fields" selected>Science</option>
+					</select><br>
+						
+					<span class="labels">Subjects :  &nbsp;&nbsp;&nbsp;&nbsp;  </span><br>	
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="Environmental" class="fields" title="Choose the Subjects you are interested in ">
+					<label for="Environmental" class="labels">Environmental Studies</label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="Sociology" class="fields" title="Choose the Subjects you are interested in ">
+					<label for="Sociology" class="labels">Sociology</label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="Global-Eco" class="fields" title="Choose the Subjects you are interested in ">
+					<label for="Global-Eco" class="labels">Global Economy</label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="Practical" class="fields" title="Choose the Subjects you are interested in ">
+					<label for="Practical" class="labels">Practical Studies</label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="Harmony" class="fields" title="Choose the Subjects you are interested in ">
+					<label for="Harmony" class="labels">Happiness and Harmony</label><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="checkbox" name="Donation" class="fields" title="Choose the Subjects you are interested in ">
+					<label for="Donation" class="labels">Donating Services</label><br>
+				
+					<label for="cv" class="labels"> Give the Link to your CV :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="url" name="cv" class="fields" title="You can give your Linked Account also" placeholder="https://www.something.com"><br>
+				
+				</fieldset>
+				
+				<fieldset id="Why-Joining">
+				
+					<legend class="legends">Reason for Joining the NGO</legend>
+					<textarea class="fields" name="message-box" rows="30" cols="96">Tell us in your words why you want to join this programme ..
+					</textarea>
+									
+				</fieldset>
+				
+				<fieldset id="Delivery-Add">
+					
+					<legend class="legends">Delivery Details for Identity Card</legend>
+					
+					<label for="address" class="labels">Put your  Address here :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="text" name="address" class="fields" size="40" title="Enter your Full Address" placeholder="A-999/XYZ,City ,State,Pincode" required><br>
+					
+					<label for="today" class="labels">Today's Date :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="date" name="today" class="fields" title="Please update the date" value="29-03-2020" readonly><br>
+					
+					<label for="month" class="labels">Tell us which month you will be joining :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="month" name="month" class="fields" title="Your membershipship will be considered from the first day of the specified month"><br>
+					
+					<label for="delivery" class="labels">Enter the Expected Date of Delivery of Identity card :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="datetime-local" name="delivery" class="fields" title="After Lockdown date" min="2020-04-14"><br>
+					
+					<label for="bold" class="labels">Boldeness of Data :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="range" name="bold" class="fields" title="Choose the boldness of data printed" min="0" max="80" step="10"><br>
+					
+					<label for="num" class="labels">Number of Identity Cards required :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="number" name="num" class="fields" title="Between 1 and 5" value="1" min="1" max="5"><br>
+					
+					<label for="id-color" class="labels">Color of Identity Card prefered : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="color" name="id-color" class="fields" title="Choose according to your preference"><br>
+										
+				</fieldset>
+
+				<fieldset id="Submission">
+					<legend class="legends">Submission</legend>
+					
+					<label for="search" class="labels">Any Clarity Required :  &nbsp;&nbsp;&nbsp;&nbsp;  </label>	
+					<input type="search" name="search" class="fields" title="Your Search here" placeholder="Google Search">
+					<input type="image" id="search-icon" src="E:\Amar study\On the Way\Web D\Web D Course 2.0\2 CSS 3\Images\search-icon.jpg" alt="&#9757;"><br>
+					<br>					
+					<input type="reset" class="fields" title="Refill the Section">&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" name="submit" class="fields" title="Submit Form"><br>
+				
+				</fieldset>	
+				
+			</form>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+

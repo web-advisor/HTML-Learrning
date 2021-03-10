@@ -1,0 +1,51 @@
+<hmtl>
+<head>
+<title>
+OUR SOLAR SYSTEM
+</title>
+</head>
+<body alink="biege" vlink="biege" text="white" link="biege" background="1.2.jpg">
+
+<br>
+<center>
+<b>
+<font size="10" face="algerian">
+OUR SOLAR SYSTEM
+</font>
+</b>
+
+<br>
+<hr size="4" width="80%" align="right" color="white">
+
+<br>
+<font size="5" face="arial">
+<p>
+OUR SOLAR SYSTEM consists of the sun and the eight planets.The eight planets of the solar system are <b>Mercury, Venus, Earth, Mars, Jupiter, 
+Saturn, Uranus and Neptune</b>.Besides planets, our solar system consists of a large number of <b>minor planets</b> or <b>asteroids</b>, a hosts of
+ <b>comets</b> and <b>meteors</b>.The gravitational pull between the sun and these celestial bodies keeps all of them revolving around it.
+</center>
+</font>
+
+<br>
+<font size="6" face="showcard gothic">
+<center>
+Our Solar System
+</font>
+
+<br>
+<img src="3.png">
+</center>
+
+<br>
+<font size="6" face="britannic bold">
+<b>
+<ul type="disc">
+<li><a href="Sun.html">The Sun</a>
+<li><a href="Planets.html">The Planets</a>
+<li><a href="Minor Bodies of the Solar System.html">Minor Bodies of the Solar System</a>
+</ul>
+</b>
+
+</font>
+</body>
+</html>
